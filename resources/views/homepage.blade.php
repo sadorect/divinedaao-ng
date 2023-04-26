@@ -48,7 +48,7 @@
             <h1 class="display-4 text-uppercase text-center mb-5">Welcome To <span class="text-primary">Divine Daao Cars</span></h1>
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <img class="w-75 mb-0" src="img/cars-about.png" alt="">
+                    <img class="w-75 mb-0" src="img/cars-final.png" alt="">
                     <p></p>
                 </div>
             </div>

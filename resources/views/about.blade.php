@@ -12,7 +12,7 @@
             <h1 class="display-4 text-uppercase text-center mb-5">Welcome To <span class="text-primary">Divine Daao Cars</span></h1>
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <img class="w-75 mb-4" src="img/cars-about.png" alt="">
+                    <img class="w-75 mb-4" src="img/cars-final.png" alt="">
                     <p>Divine Daao Nigeria Limited. RC 1310246 is a car rental provider positioned to serve the commercial and leisure segments of the travel industry and focused on value-conscious clients and customers.</p> 
                     <p>
                       With headquater at M/M Int'l Airport, Ikeja, Lagos, Nigeria, we connect various other airports within the country. The country maintains an interest in airport car rental, escort, tour guide and connects with various hotels, construction companies and, oil and gas, multinationals, governmental bodies, NGOs, etc.
@@ -51,7 +51,7 @@
 
             <div class="row justify-content-center">
               <div class="col-lg-10 text-center">
-                  <img class="w-75 mb-4" src="img/cars-about.png" alt="">
+                  <img class="w-75 mb-4" src="img/cars-final.png" alt="">
                    <p>  
                   <h3> Types of Vehicles</h3>
                     Our fleet includes vehicles like SUVs, Luxury Cars, Buses ( Hummer and Coaster), Hilux vans and a host of others.
