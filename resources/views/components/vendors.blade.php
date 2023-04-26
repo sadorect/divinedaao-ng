@@ -5,16 +5,16 @@
        </div>
       <div class="owl-carousel vendor-carousel">
           <div class="bg-light p-4">
-              <img src="img/hiace.jpg" alt="Hiace">
+              <img src="img/toyota-hiace-bus.jpeg" alt="Hiace">
           </div>
           <div class="bg-light p-4">
-              <img src="img/landcruiser.jpg" alt="Land cruiser">
+              <img src="img/landcruiser-prado.jpeg" alt="Land cruiser">
           </div>
           <div class="bg-light p-4">
-              <img src="img/camry.png" alt="camry">
+              <img src="img/camry-2023.jpeg" alt="camry">
           </div>
           <div class="bg-light p-4">
-              <img src="img/coaster.png" alt="coaster">
+              <img src="img/toyota-coaster-bus.jpeg" alt="coaster">
           </div>
           <div class="bg-light p-4">
               <img src="img/toyota_logo.jpg" alt="toyota_logo">
