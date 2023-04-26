@@ -68,25 +68,18 @@
                       <i class="fa fa-2x fa-envelope-open text-primary flex-shrink-0 mr-3"></i>
                       <div class="mt-n1">
                           <h5 class="text-light">Customer Service</h5>
-                          <p>daonigltd@gmail.com </p>
+                          <p>daonigltd@gmail.com </p><p class="m-0">daonigltd@yahoo.com</p>
                       </div>
                   </div>
                   <div class="d-flex mb-3">
-                      <i class="fa fa-2x fa-envelope-open text-primary flex-shrink-0 mr-3"></i>
-                      <div class="mt-n1">
-                          <h5 class="text-light">Complaints</h5>
-                          <p class="m-0">daonigltd@yahoo.com</p>
-                      </div>
-                  </div>
-                  <div class="d-flex">
-                    
-                    <i class="fa fa-phone-alt mr-2"></i>
+                    <i class="fa fa-2x fa-phone text-primary flex-shrink-0 mr-3"></i>
                     <div class="mt-n1">
                         <h5 class="text-light">Phone</h5>
-                        <a class="text-body pr-3" href="tel:+23480330113329">+2348033011329</a>
+                        <p class="m-0"><a class="text-body pr-3" href="tel:+23480330113329">+2348033011329</a></p>
                     </div>
                 </div>
-              </div>
+
+            </div>
           </div>
       </div>
   </div>
