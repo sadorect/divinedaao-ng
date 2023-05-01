@@ -15,7 +15,7 @@
           <div class="col-lg-7 mb-2">
               <div class="contact-form bg-light mb-4" style="padding: 30px;">
                   <form method="POST" action="/contact-form">
-                    @csrf @honeypot
+                    @csrf 
                       <div class="row">
                           <div class="col-6 form-group">
                               <input type="text" class="form-control p-4" name="name" placeholder="Your Name" value="{{old('name')}}">
