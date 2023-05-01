@@ -19,7 +19,7 @@ class ContactController extends Controller
         ]);
     
 
-        dispatch(new SendContactEmail(['sendTo'=>'admin@divinedaao.ng', 'name' =>$formValues['name'], 'email'=>$formValues['email'], 'subject' =>$formValues['subject'], 'message'=>$formValues['message'] ]));
+        dispatch(new SendContactEmail(['sendTo'=>'info@divinedaao.ng', 'name' =>$formValues['name'], 'email'=>$formValues['email'], 'subject' =>$formValues['subject'], 'message'=>$formValues['message'] ]));
 
 
         if( request()->is('/')){

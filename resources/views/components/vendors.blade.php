@@ -17,7 +17,7 @@
               <img src="img/toyota-coaster-bus.jpeg" alt="coaster">
           </div>
           <div class="bg-white p-0">
-              <img src="img/toyota_logo.jpg" alt="toyota_logo">
+              <img src="img/toyota_logo.webp" alt="toyota_logo">
           </div>
           <div class="bg-white p-0">
             <img src="img/toyota-corolla.webp" alt="toyota_corolla">

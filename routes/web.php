@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Spatie\Honeypot\ProtectAgainstSpam;
 use App\Http\Controllers\ContactController;
 
 /*
@@ -52,4 +53,4 @@ Route::get('/booking', function () {
 })->name('booking');
 
 
-Route::post('/contact-form', [ContactController::class, 'contact']);
+Route::post('/contact-form', [ContactController::class, 'contact'])->middleware(ProtectAgainstSpam::class);
