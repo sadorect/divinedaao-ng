@@ -1,0 +1,4 @@
+  2023-05-04 09:49:30 App\Jobs\SendContactEmail ...................... RUNNING
+  2023-05-04 09:49:35 App\Jobs\SendContactEmail .............. 4,998.53ms DONE
+  2023-05-04 09:54:03 App\Jobs\SendContactEmail ...................... RUNNING
+  2023-05-04 09:54:08 App\Jobs\SendContactEmail .............. 4,897.52ms DONE

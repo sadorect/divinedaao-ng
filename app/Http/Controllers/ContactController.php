@@ -21,12 +21,36 @@ class ContactController extends Controller
 
         dispatch(new SendContactEmail(['sendTo'=>'info@divinedaao.ng', 'name' =>$formValues['name'], 'email'=>$formValues['email'], 'subject' =>$formValues['subject'], 'message'=>$formValues['message'] ]));
 
+ $calling = request()->getRequestUri();
+ $caller = $request->header('referer');
 
-        if( request()->is('/')){
-            return redirect('/'.'#ContactNotification')->with('success', "Thanks for reaching out. We will get back to you shortly.");
-        } else {
-            return redirect('contact#ContactNotification')->with('success', "Thanks for reaching out. We will get back to you shortly.");
-        }
+ $referer = $request->header('referer');
+ $refererPath = parse_url($referer, PHP_URL_PATH);
+ $realCaller = parse_str(parse_url($referer, PHP_URL_QUERY), $refererQueryParams);
+
+ // Check if the session already contains the success message
+ $hasSuccessMessage = $request->session()->get('success');
+
+ if ($refererPath == '/') {
+     // Redirect the user back to the homepage if the session already contains the success message
+     if ($hasSuccessMessage) {
+         return redirect('/');
+     }
+     // Otherwise, redirect the user back to the homepage with the success message
+      return back()->with('success', 'Thanks for reaching out. We will get back to you shortly.')->withInput()->withFragment('ContactNotification');
+
+ } elseif ($refererPath == '/contact') {
+     // Redirect the user to the contact page with the notification anchor if the session already contains the success message
+     if ($hasSuccessMessage) {
+         return redirect('contact#ContactNotification');
+     }
+     // Otherwise, redirect the user to the contact page with the notification anchor and the success message
+     return redirect('contact#ContactNotification')->with('success', 'Thanks for reaching out. We will get back to you shortly.');
+ } else {
+     // Handle other cases or return a default response
+     return response('Invalid referer', 400);
+ }
+
         
     }
 }
